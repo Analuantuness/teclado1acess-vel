@@ -1,0 +1,65 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #c9184a;
+  color: rgb(255, 255, 255);
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+#corpo {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+#corpo p {
+  margin-bottom: 20px;
+}
+
+#mensagem-form {
+  margin-top: 20px;
+}
+
+#mensagem-input {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#enviar-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #c9184a;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#enviar-btn:hover {
+  background-color: #87a3b7;
+}
+footer {
+  background-color: #c9184a;
+  color: #fff;
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
